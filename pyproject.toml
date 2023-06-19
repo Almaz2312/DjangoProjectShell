@@ -1,10 +1,12 @@
 [tool.poetry]
-name = "notification-service"
+# Choose Your Project name
+name = "DjangoProjectShell"
 version = "0.1.0"
 description = ""
 authors = ["Almaz Durusaliev"]
 readme = "README.md"
-packages = [{include = "notification_service"}]
+# Write same project name
+packages = [{include = "DjangoProjectShell"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
